@@ -1,0 +1,100 @@
+/* Main Website & Body */
+body {
+  font-family: 'Spartan', sans-serif !important;
+}
+
+h1 {
+
+  font-weight: 800 !important;
+  font-size: 35px !important;
+}
+
+h2 {
+
+  font-weight: 500 !important;
+  font-size: 25px !important;
+}
+
+h3 {
+  font-weight: 800 !important;
+  font-size: 25px !important;
+}
+
+p {
+font-weight: 400 !important;
+font-size: 15px;
+}
+
+
+/* Navigation CSS */
+
+
+.containernav {
+/* height: 110px; USE LATER FOR HOMEPAGE */
+  height: 90px;
+  background-color: #ffffff;
+}
+
+.navrow {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* width: 80px; USE LATER FOR HOMEPAGE */
+  width: 55px;
+}
+
+.nav-item {
+  margin-top: 30px;
+}
+
+
+
+
+
+/* Navigation Link Styling */
+
+
+.nlink {
+    color: #343434 !important;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.nlink:hover {
+  border-bottom: #6151AF 0.3em solid;
+}
+
+.nlink:visited {
+  color: #343434;
+  text-decoration: none !important;
+}
+
+
+/* Hero Banner Styling */
+
+.hero-container {
+  background-color: gray;
+
+}
+
+.hero-content {
+  height: 600px;
+}
+
+.mainheader {
+  padding-top: 350px;
+}
+
+
+/* Introduction Styling */
+
+.intro-text {
+  margin-top: 80px;
+}
