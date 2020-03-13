@@ -23,7 +23,7 @@ h3 {
 
 p {
 font-weight: 400 !important;
-font-size: 16px;
+font-size: 14px;
 line-height: 2 !important;
 }
 
@@ -34,26 +34,27 @@ line-height: 2 !important;
 
 .containernav {
 /* height: 110px; USE LATER FOR HOMEPAGE */
-  height: 90px;
+  height: 100px;
   background-color: #ffffff;
 }
 
 .navrow {
   display: flex;
   margin-left: 80px;
-  margin-right: 80px;
+  margin-right: 110px;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
   /* width: 80px; USE LATER FOR HOMEPAGE */
-  width: 55px;
+  width: 70px;
 }
 
 .nav-item {
   margin-top: 30px;
 }
+
 
 
 
@@ -131,9 +132,54 @@ line-height: 2 !important;
 
 
 .introtext {
-  width: 60%;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  width: 58%;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+
+
+
+
+/* Quote Styling */
+
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.qitem1 {
+  width: 60% !important;
+    margin-left: 50px !important;
+}
+
+.quote1 {
+  width: 55px;
+  margin-bottom: 30px;
+}
+
+.quote2 {
+  width: 55px;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.quotetext p {
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.quotehighlight {
+  font-weight: 600 !important;
+  color: #6151AF;
 }
 
 
@@ -146,9 +192,7 @@ line-height: 2 !important;
   justify-content: center;
   background-color: #f4f4f4;
   /* background-image: url(../images/content-wide.jpg); */
-
 }
-
 
 .content2size {
   width: 60%;
@@ -166,8 +210,6 @@ line-height: 2 !important;
   min-width: 200px;
   max-width: 350px;
 }
-
-
 
 
 
@@ -198,4 +240,52 @@ line-height: 2 !important;
   min-width: 200px;
   max-width: 350px;
   margin-bottom: 50px;
+}
+
+
+
+
+/* Content 4 Styling */
+
+.content4Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+
+.content4size {
+  width: 60%;
+  margin: 150px 0px 150px 0px;
+  /* Margin properties top right bottom left */
+}
+
+.content4text {
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+
+.content4image img {
+  width: 80%;
+}
+
+
+
+
+
+.test-container {
+display: flex;
+justify-content: center;
+max-width: 100%;
+padding-top: 90px;
+padding-bottom: 90px;
+background-color: #b2b2b2;
+}
+
+.testtext {
+  width: 70%;
+  margin: 0 auto;
 }
