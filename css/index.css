@@ -1,0 +1,173 @@
+body {
+  font-family: 'Spartan', sans-serif !important;
+  max-width: 1200px;
+  margin: 0 auto !important;
+}
+
+h1 {
+
+  font-weight: 800 !important;
+  font-size: 30px !important;
+}
+
+h2 {
+
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 1.5 !important;
+}
+
+h3 {
+  font-weight: 800 !important;
+  font-size: 25px !important;
+}
+
+p {
+font-weight: 400 !important;
+font-size: 14px;
+line-height: 2 !important;
+}
+
+
+
+/* Navigation CSS */
+
+.logoblock img {
+  width: 70px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.nav-item {
+  color: #343434 !important;
+  text-decoration: none !important;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.navibar {
+  margin-top: 20px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.nav-link {
+  color: #343434 !important;
+  text-decoration: none !important;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+    border-bottom: #6151AF 0.35em solid !important;
+}
+
+.nav-link:visited {
+  color: #343434;
+  text-decoration: none !important;
+}
+
+
+
+
+
+
+/* Intro Blurb */
+
+.text-container {
+  margin: 0 auto;
+  /* background-color: black; */
+}
+
+.main {
+  max-width: 720px;
+  /* margin: 0 auto; */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  /* background-color: gray; */
+}
+
+.blurb {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+
+.name {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  color: #6151AF;
+}
+
+.about {
+  margin-top: 20px;
+font-size: 16px;
+}
+
+
+
+
+
+
+/* Cards */
+
+.card-container {
+  /* background-color: #f5f5f5; */
+  margin-bottom: 120px;
+}
+
+
+img {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+
+/* Card Animations */
+
+.projectcard {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.projectcard:hover, .projectcard:focus, .projectcard:active {
+  -webkit-transform: scale(1.0);
+  transform: scale(1.015);
+}
+
+
+
+
+
+
+
+
+/* Footer */
+.footer-container {
+  margin-bottom: 40px;
+}
+
+.footer-content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footertext {
+  font-size: 13px;
+}
+
+.smicon {
+  padding-right: 15px;
+}
