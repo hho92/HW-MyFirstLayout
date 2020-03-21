@@ -1,0 +1,291 @@
+/* Main Website & Body */
+body {
+  font-family: 'Spartan', sans-serif !important;
+}
+
+h1 {
+
+  font-weight: 800 !important;
+  font-size: 30px !important;
+}
+
+h2 {
+
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 1.5 !important;
+}
+
+h3 {
+  font-weight: 800 !important;
+  font-size: 25px !important;
+}
+
+p {
+font-weight: 400 !important;
+font-size: 14px;
+line-height: 2 !important;
+}
+
+
+
+/* Navigation CSS */
+
+
+.containernav {
+/* height: 110px; USE LATER FOR HOMEPAGE */
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.navrow {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 110px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* width: 80px; USE LATER FOR HOMEPAGE */
+  width: 70px;
+}
+
+.nav-item {
+  margin-top: 30px;
+}
+
+
+
+
+
+/* Navigation Link Styling */
+
+.nlink {
+    color: #343434 !important;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.nlink:hover {
+  border-bottom: #6151AF 0.3em solid;
+}
+
+.nlink:visited {
+  color: #343434;
+  text-decoration: none !important;
+}
+
+
+/* Hero Banner Styling */
+
+.hero-container {
+  background-color: gray;
+}
+
+.hero-content {
+  height: 400px;
+  /* height: calc(35vh - 25px); */
+  width: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.herotext {
+  margin-top: 200px;
+}
+
+
+/* Role Content */
+
+.rolescontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.rolebox {
+  width: 65%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.role-text {
+  font-size: 13px;
+  line-height: 1.5 !important;
+}
+
+
+
+/* Introduction Styling */
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.introtext {
+  width: 58%;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+
+
+
+
+/* Quote Styling */
+
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.qitem1 {
+  width: 60% !important;
+    margin-left: 50px !important;
+}
+
+.quote1 {
+  width: 55px;
+  margin-bottom: 30px;
+}
+
+.quote2 {
+  width: 55px;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.quotetext p {
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.quotehighlight {
+  font-weight: 600 !important;
+  color: #6151AF;
+}
+
+
+
+/* Content 2 Moduule Styling */
+
+.content2Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f4f4f4;
+  /* background-image: url(../images/content-wide.jpg); */
+}
+
+.content2size {
+  width: 60%;
+  margin: 150px 0px 150px 0px;
+  /* Margin properties top right bottom left */
+}
+
+.content2text {
+  /* width: 35%;
+  margin-bottom: 80px; */
+  margin-bottom: 30px;
+}
+
+.content2image img {
+  min-width: 200px;
+  max-width: 350px;
+}
+
+
+
+
+/* Content 3 Moduule Styling */
+
+
+.content3Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.content3size {
+  width: 60%;
+  margin: 150px 0px 150px 0px;
+  /* Margin properties top right bottom left */
+}
+
+.content3 {
+  width: 200px;
+  /* width: 35%;
+  margin-bottom: 80px; */
+}
+
+.content3image img {
+  min-width: 200px;
+  max-width: 350px;
+  margin-bottom: 50px;
+}
+
+
+
+
+/* Content 4 Styling */
+
+.content4Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+
+.content4size {
+  width: 60%;
+  margin: 150px 0px 150px 0px;
+  /* Margin properties top right bottom left */
+}
+
+.content4text {
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+
+.content4image img {
+  width: 80%;
+}
+
+
+
+
+
+.test-container {
+display: flex;
+justify-content: center;
+max-width: 100%;
+padding-top: 90px;
+padding-bottom: 90px;
+background-color: #b2b2b2;
+}
+
+.testtext {
+  width: 70%;
+  margin: 0 auto;
+}
