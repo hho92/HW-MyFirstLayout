@@ -6,34 +6,56 @@
 
     <!-- Bootstrap, Google Fonts & CSS stylesheet links-->
     <link href="https://fonts.googleapis.com/css?family=Spartan:500,700,800,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/design1style.css" type="text/css">
+    <link rel="stylesheet" href="css/design2.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Covenant House Case Study</title>
+    <script src="js/design1.js"></script>
+
+    <!-- Hotjar Tracking Code for https://hho92.github.io/Portfolio/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1746855,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+    <title>Routinely App</title>
   </head>
 
   <!-- BOOTSRAP COMPONENTS HERE: https://getbootstrap.com/docs/4.4/components/ -->
 
   <body>
 
+    <!-- Fader Content Goes here -->
+      <svg id="fader"></svg>
+
+      <script>
+        fadeInPage();
+      </script>
+
+
 <!-- Navigation -->
 
+  <nav class="navbar navbar-expand-lg navbar-light navibar">
+    <div class="logoblock"><a href="../index.html"><img class="logo" src="../images/logo.jpg"></a></div>
 
-<div class="container containernav">
-  <div class="navrow text-center">
-    <div class="nav-item">
-      <a href="../index.html"><img class="logo" src="../images/logo.jpg"></a>
+    <button class="navbar-toggler navbutton" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navbarNav">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="../index.html">DESIGN</a></li>
+        <li class="nav-item"><a class="nav-link" href="../images/HHo.pdf" target="_blank">RESUME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+      </ul>
     </div>
-
-      <div class="nav-item row">
-        <div class="nav-link"><a class="nlink" href="#">DESIGN</a></div>
-        <div class="nav-link"><a class="nlink" href="../about/about.html">ABOUT</a></div>
-      </div>
-
-  </div>
-</div>
-
-
+</nav>
 
 
 <!-- Hero Banner content -->
@@ -41,8 +63,8 @@
   <div class="container-fluid hero-container">
     <div class="col hero-content">
       <div class="col herotext">
-        <div><h1>COVENANT HOUSE CALIFORNIA</h1></div>
-        <div><h2>Designing to help youth homelessness<h2></div>
+        <div><h1>Routinely</h1></div>
+        <div><h2>A communication and progress tracking platform <br> for dermatology patients<h2></div>
       </div>
     </div>
   </div>
@@ -54,11 +76,11 @@
   <div class="container-fluid rolescontainer">
     <div class="row text-center rolebox">
       <div class="roles col-sm-12 col-md-4">
-        <p class="role-text">Project: CHC Website ReDesign</p>
+        <p class="role-text">Project: UX Case Study</p>
       </div>
 
       <div class="roles col-sm-12 col-md-4">
-        <p class="role-text">Project Length: 3 Weeks</p>
+        <p class="role-text">Length: 3 Weeks</p>
       </div>
 
       <div class="roles col-sm-12 col-md-4">
@@ -196,6 +218,8 @@
 
 
     <!-- THE BELOW SCRIPT TAGS ARE REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
