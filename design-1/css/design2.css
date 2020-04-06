@@ -143,12 +143,18 @@ line-height: 2 !important;
 /* Hero Banner Styling */
 
 .hero-container {
-  background-color: gray;
+
 }
 
+.title-banner {
+  background: #5E5E5E url("../images/title-image.png") no-repeat center top;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+
 .hero-content {
-  height: 400px;
-  /* height: calc(35vh - 25px); */
+  height: 600px;
   width: 50%;
   display: flex;
   text-align: center;
@@ -157,7 +163,7 @@ line-height: 2 !important;
 }
 
 .herotext {
-  margin-top: 200px;
+  margin-top: 500px;
 }
 
 
@@ -167,7 +173,6 @@ line-height: 2 !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: lightgray;
 }
 
 .rolebox {
